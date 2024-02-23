@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-5Rsftccg13AIWusDhS97I2Wp05Hf13l3r63mQPjxdL4=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav bar -->
+      <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Daily Planner</h1>
+            <div class="nav-bar">
+                <ul class="nav-bar-items">
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="add.html">Add Entry</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="edit.html">Edit</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+      <!-- Edit container -->
+      <div class="edit-task-container">
+        <h1 class="edit-task-head">Edit Task</h1>
+<!-- Edit task form -->
+        <form>
+          <label for="task">Task:</label>
+          <input class= "grey-border" type="text" id="task" name="task" placeholder="Enter task" required>
+    
+          <label for="priority">Priority:</label>
+          <select class= "grey-border" id="priority" name="priority" required>
+            <option value="low">Low</option>
+            <option value="normal">Normal</option>
+            <option value="high">High</option>
+          </select>
+    
+          <label for="date">Date:</label>
+          <input class= "grey-border" type="date" id="date" name="date" required>
+    
+          <label for="time">Time:</label>
+          <input class= "grey-border" type="time" id="time" name="time" required>
+
+<!-- Edit button -->
+          <button class="edit-entry-button" type="submit">Save changes</button>
+        </form>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,189 @@
+* {
+    margin: 0 0;
+    text-align: left;
+    font-family: "Roboto", "Open Sans", "Arial", sans-serif;
+}
+
+/* Styling for the nav bar */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: inline-end;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav h1 {
+    float: inline-start;
+}
+
+.navbar {
+    background-color: #6f7173;
+    color: white;
+    padding: 10px 0;
+    margin-left: auto;
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 14.5px;
+    transition: background-color 0.3s;
+    /* Add smooth transition for better user experience */
+}
+
+.nav-item a:hover {
+    background-color: #585858;
+    padding: 14.5px;
+}
+
+.logo {
+    margin: 0;
+}
+
+/* Styling for the Daily planner table */
+
+.planner-head {
+    margin: 30px;
+    padding: 5px;
+}
+
+table {
+    width: calc(100% - 60px);
+    margin: 30px;
+    border-collapse: collapse;
+    box-sizing: content-box;
+}
+
+th,
+td {
+    border: none;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* input[type="text"],
+input[type="date"],
+input[type="time"] {
+    border: none;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+} */
+
+.clear-tasks {
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(29, 142, 217);
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+/* Styling Add Task Container */
+.add-task-head {
+    margin: 30px 0 30px 0;
+    padding: 5px;
+}
+
+.add-task-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.grey-border {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-entry-button {
+    padding: 10px;
+    color: white;
+    background-color: rgb(29, 142, 217);
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+/* Styling Edit Task Container */
+
+.edit-task-head {
+    margin: 30px 0 30px 0;
+    padding: 5px;
+}
+
+.edit-task-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.grey-border {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-entry-button {
+    padding: 10px;
+    color: white;
+    background-color: rgb(29, 142, 217);
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+
